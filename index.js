@@ -6,25 +6,29 @@ var kittens = [
 
 // Add your functions and code here
 function destructivelyAppendKitten(name) {
-  return kittens.push(name);
+  kittens.push(name);
+  return kittens;
 }
 
 
 funtion destructivelyPrependKitten(name) {
-  return kittens.unshift(name);
+  kittens.unshift(name);
+  return kittens;
 }
 
 
 function destructivelyRemoveLastKitten(name) {
-  return kittens.pop(name);
+  kittens.pop(name);
+  return kittens;
 }
 
 
 function destructivelyRemoveFirstKitten(name) {
-  return kittens.shift(name);
+  kittens.shift(name);
+  return kittens;
 }
 
 
 function appendKitten(name) {
-  return kittens.concat(name);
+  return [name, ...kittens];
 }
