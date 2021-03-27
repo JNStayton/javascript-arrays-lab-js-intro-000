@@ -1,7 +1,7 @@
 var kittens = [
   "Milo",
   "Otis",
-  "Garlield"
+  "Garfield"
 ] //define your array here
 
 // Add your functions and code here
